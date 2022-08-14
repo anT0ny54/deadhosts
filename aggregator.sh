@@ -440,6 +440,7 @@ mkdir -p "$TEMP_DIR/sources"
 echo "[*] updating domain list..."
 fetch_domains_comments \
                 "https://raw.githubusercontent.com/ant8891/01/main/output/01.txt/domains/INACTIVE/list" \
+                "https://raw.githubusercontent.com/ant8891/01/main/output/01.txt/domains/INVALID/list" \
                 "https://raw.githubusercontent.com/ant8891/02/main/output/02.txt/domains/INACTIVE/list" \
                 "https://raw.githubusercontent.com/ant8891/02/main/output/02.txt/domains/INVALID/list" \
                 "https://raw.githubusercontent.com/ant8891/03/main/output/03.txt/domains/INACTIVE/list" \
